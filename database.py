@@ -9,4 +9,3 @@ engine = _sql.create_engine(DATABASE_URL)
 SessionLocal = _orm.sessionmaker(autoflush=False, bind=engine)
 
 Base = _declarative.declarative_base()
-

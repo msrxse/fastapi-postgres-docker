@@ -117,4 +117,12 @@
     "[typescriptreact]": {
       "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
+    "[python]": {
+      "editor.defaultFormatter": "ms-python.black-formatter",
+      "editor.formatOnSave": true
+    },
+    "python.analysis.typeCheckingMode": "strict",
+    "editor.codeActionsOnSave": {
+      "source.organizeImports":"always"
+    }
   }
